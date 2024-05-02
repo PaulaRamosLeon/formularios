@@ -259,9 +259,9 @@
                 <label for="nombre-completo">Indica tu nombre completo:</label>
                 <input type="text" name="nombre-completo" id="nombre-completo" placeholder="Nombre completo" required>
                 <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="Escribe tu email" required>
+                <input type="email" name="email" id="email" placeholder="Escribe tu email" required>
                 <label for="telefono">Teléfono de contacto:</label>
-                <input type="tel" name="telefono" placeholder="Número de teléfono" required>
+                <input type="tel" name="telefono" id="telefono" placeholder="Número de teléfono" required>
                 Fecha de entrada:
                 <input type="date" min="2024-05-02" required>
                 Fecha de salida:
@@ -283,7 +283,7 @@
 
 
                 <label for="solicitud">¿Tienes alguna solicitud especial?</label>
-                <textarea name="solicitud" placeholder="Escríbela aquí" cols="30" rows="1"></textarea>
+                <textarea name="solicitud" id="solicitud" placeholder="Escríbela aquí" cols="30" rows="1"></textarea>
 
                 <input class="enviar" type="submit" value="Enviar">
             </fieldset>
@@ -293,9 +293,9 @@
             <fieldset>
                 <legend>Comentarios de producto</legend>
                 <label for="nombre">Indica tu nombre:</label>
-                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
                 <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="Escribe tu email" required>
+                <input type="email" name="email" id="email" placeholder="Escribe tu email" required>
                 <label for="calificacion">Calificación del producto:</label>
                 <div class="fila"><input type="radio" name="calificacion" value="1" required>⭐</div>
                 <div class="fila"><input type="radio" name="calificacion" value="2">⭐⭐</div>
